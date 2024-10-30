@@ -1,0 +1,22 @@
+{
+    "name": "nholuong/profiler",
+    "description": "DIV block ",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nho Luong",
+            "email": "luongutnho@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "nholuong\\Profiler\\": ""
+        }
+    }
+}

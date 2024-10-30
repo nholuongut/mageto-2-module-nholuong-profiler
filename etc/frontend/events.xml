@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="view_block_abstract_to_html_before">
+		<observer name="genaker_profiler_observer_frontend_view_blockabstracttohtmlbefore_view_block_abstract_to_html_before" instance="Genaker\Profiler\Observer\Frontend\View\BlockAbstractToHtmlBefore"/>
+	</event>
+	<event name="view_block_abstract_to_html_after">
+		<observer name="genaker_profiler_observer_frontend_view_blockabstracttohtmlafter_view_block_abstract_to_html_after" instance="Genaker\Profiler\Observer\Frontend\View\BlockAbstractToHtmlAfter"/>
+	</event>
+</config>
